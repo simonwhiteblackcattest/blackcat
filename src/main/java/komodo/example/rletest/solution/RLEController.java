@@ -2,6 +2,10 @@ package komodo.example.rletest.solution;
 
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * REST Controller for the RLE Encoder / Decoder service.  Responsibilities extent only to marshalling and timing
+ * the HTTP/JSON requests and responses - the actual encoding is done by the injected business classes
+ */
 @RestController
 public class RLEController {
 
